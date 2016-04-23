@@ -1,0 +1,15 @@
+<template name="MainLayout">
+  <header>
+    <h1>My Recipe Book</h1>
+    <!-- packages are needed for the login button to work -->
+    {{> loginButtons}}
+  </header>
+  <main>
+    <!-- This is going to be the main template of the site -->
+    {{> Template.dynamic template=main}}
+  </main>
+</template>
+
+<template name="Test">
+  Hello!!!
+</template>
