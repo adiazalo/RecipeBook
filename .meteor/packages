@@ -24,11 +24,11 @@ fortawesome:fontawesome
 spiderable
 fastclick
 raix:handlebar-helpers
-aldeed:collection2      
+aldeed:collection2
 aldeed:autoform
 accounts-ui
 accounts-password
 matb33:bootstrap-glyphicons
-msavin:jetsetter
 zimme:active-route
 gwendall:auth-client-callbacks
+meteortoys:allthings    # after adding this package go to the app and press ctrl+m
