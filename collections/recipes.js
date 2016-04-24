@@ -18,6 +18,9 @@ RecipeSchema = new SimpleSchema({
     label: "Author",
     autoValue: function(){ //This will give it a default value
       return this.userId
+    },
+    autoform: {
+      type: "hidden"
     }
   },
   createdAt: {
@@ -25,6 +28,9 @@ RecipeSchema = new SimpleSchema({
     label: "Created At",
     autoValue: function(){
       return new Date()
+    },
+    autoform: {
+      type: "hidden"
     }
   }
 });

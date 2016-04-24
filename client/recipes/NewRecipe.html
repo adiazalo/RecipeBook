@@ -1,0 +1,6 @@
+<template name="NewRecipe">
+  <div class="new-recipe-container">
+      {{> quickForm collection="Recipes" id="insertRecipeForm" type="insert" class="new-recipe-form"}}
+      <!-- This is a template tag. quickForm allows us to load a form from our collection. Part of the autoform package -->
+  </div>
+</template>
