@@ -1,10 +1,7 @@
 <template name="MainLayout">
-  <header>
-    <h1>My Recipe Book</h1>
-    <!-- packages are needed for the login button to work -->
-    {{> loginButtons}}
-  </header>
-  <main>
+  {{> Header}}
+  {{> SideNav}}
+  <main class="main-layout"> <!-- The class was added since the sice bar was overlaping the inout fields and it was position fixed -->
     <!-- This is going to be the main template of the site -->
     {{> Template.dynamic template=main}}
   </main>
