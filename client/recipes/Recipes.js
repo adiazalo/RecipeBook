@@ -4,4 +4,10 @@
 /*When doing google analytics you will be give a number which you will add below in account*/
 
 Meteor.subscribe('recipes');
-console.log(Meteor.settings.public.ga.account);
+
+/* curly braquests {} are called 'big event signs'*/
+Template.Recipes.helpers({
+  recipes: ()=> {
+    return Recipes.find({});
+  }
+});
