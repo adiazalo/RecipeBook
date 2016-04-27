@@ -30,7 +30,7 @@ accounts-ui
 accounts-password
 matb33:bootstrap-glyphicons
 zimme:active-route
-gwendall:auth-client-callbacks
+gwendall:auth-client-callbacks  #used for accounts.Login / accounts.Logout
 meteortoys:allthings    # after adding this package go to the app and press ctrl+m
 datariot:ganalytics
 
