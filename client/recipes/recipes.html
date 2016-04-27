@@ -1,9 +1,14 @@
 <template  name="Recipes"> <!-- 'name="Recipes"' is called a 'tag' -->
     {{> NewRecipe}} <!--  this will be looking for a NewRecipe template -->
+
     <section class="recipes">
       <!-- Loop -->
-      {{#each recipes}}
-        {{> Recipe}}
-      {{/each}}
+      {{#if Template.subscriptionsReady}}
+        {{#each recipes}}
+          {{> Recipe}}
+        {{/each}}
+      {{else}}
+        </p>Loading</p>
+      {{/if}}
     </section>
 </template>
